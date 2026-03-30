@@ -73,6 +73,20 @@ def updateStudent():
     # students["state"] = newStatus
     print("\n Update information!")
 
+def deleteStudent():
+    deleteID = int(input("\nEnter ID to delete: "))
+    delete_student = None
+
+    for llave, datos in students.items():
+        if datos["id"] == deleteID:
+            delete_student = True
+
+            print(f'Delete student: {students[llave]}')
+            delete_student = datos
+            del students [llave]
+            print("Successfully removed")
+            break
+
 # Main dictionary
 
 students = {
@@ -112,7 +126,6 @@ students = {
 
 
 # Main loop 
-
 test = False
 
 while test == False:
@@ -153,23 +166,12 @@ while test == False:
     # Update information
 
     elif selection == 4:
-        updateStudent()    
+        updateStudent()
 
     # Delete Student
 
     elif selection == 5:
-        deleteID = int(input("\nIngrese ID para eliminar: "))
-        delete_student = None
-
-        for llave, datos in students.items():
-            if datos["id"] == deleteID:
-                delete_student = True
-
-                print(f'Eliminando usuario: {students[llave]}')
-                delete_student = datos
-                del students [llave]
-                print("Eliminado con exito!")
-                break
+        deleteStudent()
     
     # Exit
 
