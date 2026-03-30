@@ -76,9 +76,9 @@ This option closes the program automatically.
 
 ## Concepts demonstrated:
 
-Input validation and error handling
-Use of for-while loops
-If/elif/else structure
-Data management
-Data updating
-Creation, use, and modification of dictionaries.
+- Input validation and error handling
+- Use of for-while loops
+- If/elif/else structure
+- Data management
+- Data updating
+- Creation, use, and modification of dictionaries.
