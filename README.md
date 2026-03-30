@@ -1,6 +1,3 @@
-# pruebadesempenoRiwi
-
-
 # Student Management System with Data Persistence
 
 This program allows you to manage university student information based on criteria such as:
@@ -35,7 +32,7 @@ updateStudent(): Updates a student's information.
 
 The user must choose one of the options shown in the main menu, which are as follows:
 
-1. Add new user
+### 1. Add new user
 
 Upon accessing this menu, the user will be asked for the following information:
 - Enter ID number
@@ -46,15 +43,15 @@ Upon accessing this menu, the user will be asked for the following information:
 
 Once the requested information is entered, a message will appear indicating that the student has been successfully added.
 
-2. Search
+### 2. Search
 
 All students saved in the database will be displayed with their respective information (ID, first name, last name, program, status).
 
-3. Custom search
+### 3. Custom search
 
 By entering the student's ID, the corresponding information (ID, first name, last name, program, status) can be viewed.
 
-4. Update information
+### 4. Update information
 
 The user will be asked for the following information:
 
@@ -66,11 +63,11 @@ The user will be asked for the following information:
 
 Once the data is entered, it will be updated in the data management system.
 
-5. Delete User
+### 5. Delete User
 
 You can delete a user by entering their ID. A message will then appear confirming that the user has been successfully deleted.
 
-6. Exit
+### 6. Exit
 
 This option closes the program automatically.
 
